@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,lightblue,yellow);
+}
+header{
+    margin:0 auto;
+}
+header h1{
+    text-align-last: center;
+    margin: 0.5rem 1rem;
+    color:darkblue;
+    font-style: sans-serif;
+    font-size: 3rem;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+header p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+button{
+    color:white;
+    font-size: 1.3rem;
+    background: red;
+    cursor: pointer;
+}
+.score{
+    margin: 0 auto;
+    width:40%;
+    margin-top: 1rem;
+    justify-items: center;
+}
+.score h2{
+    text-align: center;
+    color: brown;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.score p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+table{
+    margin:0 auto;
+    width: 40%;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+}
+td{
+    width: 25%;
+    height:85px;
+    background: white;
+    box-shadow: black;
+    box-shadow: 2px 2px 0px 0px black;
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    td{
+        height:45px;
+    }
+}
